@@ -1,0 +1,47 @@
+body{background-color: rgb(58, 58, 53);}
+section{
+    width: 50%;
+    margin: 15% auto; 
+}
+hr{
+    width: 100%;
+    margin-top: 25px;
+    color:rgb(156, 156, 156)
+}
+span{
+    color: white;
+    display: block;
+    font-size: 50px;
+    transform: scale(2);
+    white-space: nowrap;    
+    width: 12ch;
+    animation: typing 1s steps(11) ;
+    overflow: hidden;
+}
+div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.item p{
+    color:rgb(156, 156, 156)
+}
+.linea{
+    display: inline;
+    animation: blink .5s infinite step-end alternate ;
+    font-size: 40px;
+    
+}
+a{
+    margin-left: -15px;
+    text-decoration: none;
+    color: black;
+}
+a:hover{color: black;}
+
+@keyframes typing{
+    from {width: 0}
+}
+@keyframes blink{
+    50%{color: transparent;}
+}
