@@ -8,4 +8,4 @@ aplicacion.use('/static',express.static('assets'));
 aplicacion.use('/', direcciones);
 aplicacion.use('/login', direcciones);
 
-aplicacion.listen(8080, function(){console.log("Servidor iniciado")});
+aplicacion.listen('irecinos.me', function(){console.log("Servidor iniciado")});
